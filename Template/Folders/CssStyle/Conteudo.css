@@ -1,0 +1,90 @@
+/* CssStyle: Conteudo*/
+
+
+/* Propriedade: Conteudo */
+.Conteudo{
+    width:100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+/* Propriedade: Planos */
+  #Planos{
+      padding: 5px;
+      margin: 0 auto;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+ }
+
+
+
+
+
+/*Propriedade: Plano*/
+.Plano{
+    width: 250px;
+    height: 280px;
+    margin: 5px;
+    overflow: hidden;
+    transition: 0.5s;
+    border:1px solid #FFF;
+}
+.Plano:hover{
+    transition: 0.5s;
+}
+.Plano .icon{
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    margin-left: 40px;
+    border-radius: 50%;
+    background: #FFF;
+    position: absolute;
+    transition: 0.5s;
+}
+.Plano:hover .icon{
+    width: 120px;
+    height: 120px;
+    opacity: 0.5;
+    background: #38bf77;
+    margin-top: 10px;
+    width: 120px;
+    transition: 0.3s;
+   transform: rotate3d(2, 0, 1, 45deg) ;;
+}
+.Plano img{
+    width: 130px;
+    height: 130px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 15px;
+    display: flex;
+}
+.Plano h5{
+    margin: 0 auto;
+    margin-top: 3px;
+    font-family:"Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #383535; 
+}
+.Plano p{
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 3px;
+    font-family:"Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    text-align:center;
+    text-overflow: ellipsis;
+    color: #888;
+}
+
+

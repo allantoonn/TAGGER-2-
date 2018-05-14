@@ -1,0 +1,9 @@
+/* CssStyle: Body */
+
+
+Body{
+    width: 100%;
+    background: white;
+    margin: 0 auto;
+   cursor:url(../Cursores/Numix/Dark/Arrow.cur),auto;
+}

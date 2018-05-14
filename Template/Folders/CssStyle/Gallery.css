@@ -1,0 +1,94 @@
+/* CssStyle: Galeria */
+
+/* Propriedade: Galeria */
+  #Galeria{
+    padding: 5px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+ .Galeria{
+    width: 190px;
+    height: 260px;
+    margin: 5px;
+    border-radius: 0px;
+    transition: 0.8s;
+    cursor:url(../Cursores/Numix/Dark/Hand.cur),auto;
+}
+.G01:hover{
+    background: #4882e0;
+    transform: rotate3d(1, 0, 1, 10deg) ;
+    transition: 0.8s;
+    box-shadow:1px 1px 10px 0px #888;
+}
+.G02:hover{
+    background: #38bf77;
+    transform: rotate3d(1, 0, 1, -10deg) ;
+    transition: 0.8s;
+    box-shadow:1px 1px 10px 0px #888;
+}
+.G03:hover{
+    background: #e04848;
+    transform: rotate3d(1, 0, 1, 10deg) ;
+    transition: 0.8s;
+    box-shadow:1px 1px 10px 0px #888;
+}
+.G04:hover{
+    background: #ff9c48;
+    transform: rotate3d(1, 0, 1, -10deg) ;
+    transition: 0.8s;
+    box-shadow:1px 1px 10px 0px #888;
+}
+/* .Propriedade: Galeria */
+
+
+
+
+
+/* Propriedade: Imagem */
+.Galeria:hover img {
+    transform: scale(1.1);
+    transition: 0.5s;
+    filter:none;
+}
+.Galeria img{
+    width: 130px;
+    height: 130px;
+    background: red;
+    filter: grayscale(100);
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 8px #555555;
+    display: flex;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.5s
+}
+/* .Propriedade: Imagem */
+
+
+
+
+
+/* Propriedade: H5 */
+.Galeria h5{
+    margin: 0 auto;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-family:"Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    color: #9f9c9c;
+    text-align: center;
+}
+.Galeria:hover h5{
+    color: #FFF;
+    transition: 0.3s;
+}
+.Galeria .Nome{
+    margin-top: 30px;
+}
+/* .Propriedade: H5 */
