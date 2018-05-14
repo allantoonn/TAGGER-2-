@@ -35,7 +35,7 @@
 
 /* Propriedade: Logo */
 .Logo{
-     background-image: url(../Imagens/TAGGER/Logos/Tagger.svg);
+     background-image: url(../Imagens/TAGGER/Logos/TaggerBold.svg);
     background-size: 300px;
     background-position: center;
     background-repeat: no-repeat;
@@ -46,6 +46,6 @@
     margin: 0 auto;
     margin-top: 180px;
     border: 3px solid #FFF;
-    border-radius: 3px;
+    border-radius: 10px;
 }
         

@@ -6,6 +6,8 @@
     width:100%;
     margin-top: 50px;
     margin-bottom: 50px;
+    background-color: lightgray;
+    border-radius: 10px;
 }
 
 
@@ -44,17 +46,16 @@
     margin: 0 auto;
     margin-left: 40px;
     border-radius: 50%;
-    background: #FFF;
+    background:lightgray;
     position: absolute;
     transition: 0.5s;
 }
 .Plano:hover .icon{
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    height: 160px;
     opacity: 0.5;
-    background: #38bf77;
+    background: white;
     margin-top: 10px;
-    width: 120px;
     transition: 0.3s;
    transform: rotate3d(2, 0, 1, 45deg) ;;
 }
