@@ -212,8 +212,8 @@
         <!-- Formulario Rapido -->
     <nav id=formulario>
       
-         <form id="formulario" form action="arquivoaqui" method="get">
-              
+         <form id="formulario"  method="post" action="Folders/cadastro.php">
+               
               <ul id="progress" >
                   <li class="ativo">Configurações</li>
                   <li>Dados Pessoais</li>
@@ -234,9 +234,9 @@
                <Fieldset>
             <h2> Perfis Pessoais</h2>
                  <h3>Redes sociais</h3>
-                 <input type="text" name="facebook" placeholder="Facebook" />
-                 <input type="text" name="Discord" placeholder="Discord" />
-                 <input type="text" name="Youtube" placeholder="Youtube" />
+                 <input type="text" name="facebook" placeholder="Facebook (opcional)"  />
+                 <input type="text" name="Discord " placeholder="Discord (opcional)" />
+                 <input type="text" name="Youtube" placeholder="Youtube (opcional)" />
                    <input type="submit" name="prev" class="prev acao" value="anterior">
                  <input type="submit" name="next" class="next acao" value="proximo">
              </Fieldset>
@@ -249,7 +249,7 @@
                  <input type="text" name="segundo" placeholder="sobrenome" />
                  <input type="text" name="telefone" placeholder="telefone" />
                    <input type="submit" name="prev" class="prev acao" value="anterior">
-                 <input type="submit" name="next" class="acao" value="enviar">
+                 <input type="submit" name="next" class="acao"  id="cadastrar" value="cadastrar" >
              </Fieldset>
              
              
