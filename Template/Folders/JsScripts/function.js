@@ -25,10 +25,17 @@ $(function(){
 	});
     
 	$('#salvar').click(function(){
-		$.post("Folders/teste.php", function(data){		
-			/*"data" é a informação que o arquivo php irá retornar
-			e no caso ele retorna tudo o que seria printado com echo*/
-			alert(data);
+		$.post("processa.php", $("#formulario").serializeArray()).done(function(data){		
+			
+			//é possível passar informações pelo post passando as variáveis
+			//"data" é a informação que o arquivo php irá retornar
+			//e no caso ele retorna tudo o que seria printado com echo
+			if(data==null){
+				alert(data);
+			}else{
+				alert("Solicitação registrada com sucesso!");
+			}
+			$("#formulario").trigger('reset');
 		});
 	});
 });
