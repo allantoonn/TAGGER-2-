@@ -7,14 +7,13 @@ $(function(){
         next_fs = $(this).parent().next();
         
         
-        $('#progress li').eq('fieldset').index(next_fs)).addClass('ativo')
+        $('#progress li').eq('fieldset').index(next_fs)).addClass('ativo');
         atual_fs.hide(800);
         next_fs.show(800);
     });
     
-    ($('#formulario input[type=submit]').click(function(){
-        return false;
-        
+    $('#formulario input[type=submit]').click(function(){
+        alert("enviando para o BD");        
     });
                                                
 });
