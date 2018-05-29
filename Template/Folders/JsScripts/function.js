@@ -22,12 +22,20 @@ $(function(){
         $('#progress li').eq($('fieldset').index(atual_fs)).removeClass('ativo');
         atual_fs.hide(800);
         prev_fs.show(800);
-        });
+	});
     
-    
-    $('#formulario input[type=submit]').click(function(){
-        return false;
-        
-    });
-                                               
+	$('#salvar').click(function(){
+		$.post("processa.php", $("#formulario").serializeArray()).done(function(data){		
+			
+			//é possível passar informações pelo post passando as variáveis
+			//"data" é a informação que o arquivo php irá retornar
+			//e no caso ele retorna tudo o que seria printado com echo
+			if(data==null){
+				alert(data);
+			}else{
+				alert("Solicitação registrada com sucesso!");
+			}
+			$("#formulario").trigger('reset');
+		});
+	});
 });

@@ -55,6 +55,9 @@
     
         <!-- Menu -->
         <script src="Folders/JsScripts/Menu.js"></script>
+		
+		<!-- Formulário -->
+		<script type="text/javascript" src="Folders/JsScripts/function.js"></script>
     
     <!-- .JsScripts  -->
         
@@ -218,7 +221,7 @@
 	<nav id="ok">
 		<h1>Sua requisição foi enviada</h1>
 	</nav> -->
-    <nav id=formulario>
+    <nav id="navForm">
       
          <form id="formulario"  method="post" enctype="multipart/form-data" action="processa.php"  name="formulario">
                
@@ -257,13 +260,10 @@
                  <input type="text" name="sobrenome" placeholder="sobrenome" id="sobrenome" />
                  <input type="text" name="telefone" placeholder="telefone" id="telefone" />
                    <input type="button" name="prev" class="prev acao" value="anterior">
-                 <input type="submit" name="next" class="acao"  id="salvar" value="Enviar" >
+                 <input type="button" name="next" class="acao"  id="salvar" value="Enviar" >
              </Fieldset>
              
              
-            <script type="text/javascript" src="//code.jquery.com/jquery-3.3.1.min.js"></script>
-             
-             <script type="text/javascript" src="Folders/JsScripts/function.js"></script>
                 
              <!-- Antigo Form >
             <legend>Entre em contato, estamos aguardando</legend>
