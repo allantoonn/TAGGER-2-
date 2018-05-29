@@ -4,6 +4,7 @@
 
 <head>
     
+   
     <!-- Meta Dados -->
     <title> Tagger Alpha</title>
         <!-- Caracteres Universal UTF-8 -->
@@ -210,10 +211,17 @@
     </div>
     <!-- .Galeria -->
         <!-- Formulario Rapido -->
+	<nav id="erro">
+		<h1>Preencha todos os campos corretamente</h1>
+	</nav>
+	<!--
+	<nav id="ok">
+		<h1>Sua requisição foi enviada</h1>
+	</nav> -->
     <nav id=formulario>
       
-         <form id="formulario" form action="arquivoaqui" method="get">
-              
+         <form id="formulario"  method="post" enctype="multipart/form-data" action="processa.php"  name="formulario">
+               
               <ul id="progress" >
                   <li class="ativo">Configurações</li>
                   <li>Dados Pessoais</li>
@@ -224,32 +232,32 @@
              <Fieldset>
             <h2> Dados para contato</h2>
                  <h3> Algumas configuracoes</h3>
-                 <input type="text" name="email" placeholder="Email" />
-                 <input type="text" name="assunto" placeholder="Assunto" />
-                 <input type="text" name="mensagem" placeholder="Mensagem" />
-                 <input type="submit" name="next" class="next acao" value="proximo">
+                 <input type="text" name="email" placeholder="Email" id="email"/>
+                 <input type="text" name="assunto" placeholder="Assunto" id="assunto"/>
+                 <input type="text" name="mensagem" placeholder="Mensagem" id="mensagem"/>
+                 <input type="button" name="next1" class="next acao" value="proximo">
              </Fieldset>
              
              <!-- ABAIXO SEGUNDA PAGINA CADASTRO -->
                <Fieldset>
             <h2> Perfis Pessoais</h2>
                  <h3>Redes sociais</h3>
-                 <input type="text" name="facebook" placeholder="Facebook" />
-                 <input type="text" name="Discord" placeholder="Discord" />
-                 <input type="text" name="Youtube" placeholder="Youtube" />
-                   <input type="submit" name="prev" class="prev acao" value="anterior">
-                 <input type="submit" name="next" class="next acao" value="proximo">
+                 <input type="text" name="facebook" placeholder="Facebook (opcional)" id="facebook"  />
+                 <input type="text" name="discord" placeholder="Discord (opcional)" id="discord"/>
+                 <input type="text" name="youtube" placeholder="Youtube (opcional)" id="googleplus" />
+                   <input type="button" name="prev" class="prev acao" value="anterior">
+                 <input type="button" name="next2" class="next acao" value="proximo">
              </Fieldset>
              
              <!-- ABAIXO TERCEIRA PAGINA CADASTRO -->
                <Fieldset>
             <h2> Detalhes Pessoais</h2>
                  <h3>Informe nos alguns detalhes</h3>
-                 <input type="text" name="primeiro" placeholder="Primeiro nome" />
-                 <input type="text" name="segundo" placeholder="sobrenome" />
-                 <input type="text" name="telefone" placeholder="telefone" />
-                   <input type="submit" name="prev" class="prev acao" value="anterior">
-                 <input type="submit" name="next" class="acao" value="enviar">
+                 <input type="text" name="nome" placeholder="Primeiro nome" id="primeiro" />
+                 <input type="text" name="sobrenome" placeholder="sobrenome" id="sobrenome" />
+                 <input type="text" name="telefone" placeholder="telefone" id="telefone" />
+                   <input type="button" name="prev" class="prev acao" value="anterior">
+                 <input type="submit" name="next" class="acao"  id="salvar" value="Enviar" >
              </Fieldset>
              
              

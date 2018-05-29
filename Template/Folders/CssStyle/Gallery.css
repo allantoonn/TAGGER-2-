@@ -18,25 +18,25 @@
     cursor:url(../Cursores/Numix/Dark/Hand.cur),auto;
 }
 .G01:hover{
-    background: #4882e0;
+    background: #38bf77;
     transform: rotate3d(1, 0, 1, 10deg) ;
     transition: 0.8s;
     box-shadow:1px 1px 10px 0px #888;
 }
 .G02:hover{
-    background: #38bf77;
+    background: #90ee90;
     transform: rotate3d(1, 0, 1, -10deg) ;
     transition: 0.8s;
     box-shadow:1px 1px 10px 0px #888;
 }
 .G03:hover{
-    background: #e04848;
+    background: #1e9f5a;
     transform: rotate3d(1, 0, 1, 10deg) ;
     transition: 0.8s;
     box-shadow:1px 1px 10px 0px #888;
 }
 .G04:hover{
-    background: #ff9c48;
+    background: #0f9a50;
     transform: rotate3d(1, 0, 1, -10deg) ;
     transition: 0.8s;
     box-shadow:1px 1px 10px 0px #888;
