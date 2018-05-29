@@ -55,6 +55,9 @@
     
         <!-- Menu -->
         <script src="Folders/JsScripts/Menu.js"></script>
+		
+		<!-- Formulário -->
+		<script type="text/javascript" src="Folders/JsScripts/function.js"></script>
     
     <!-- .JsScripts  -->
         
@@ -261,9 +264,6 @@
              </Fieldset>
              
              
-            <script type="text/javascript" src="//code.jquery.com/jquery-3.3.1.min.js"></script>
-             
-             <script type="text/javascript" src="Folders/JsScripts/function.js"></script>
                 
              <!-- Antigo Form >
             <legend>Entre em contato, estamos aguardando</legend>
